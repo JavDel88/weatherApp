@@ -1,8 +1,8 @@
-.WeatherCard {
+.WeatherCard {    
     max-width: 250px;
     text-align: center;
-    color: #fff;
-    background: linear-gradient(to bottom left, rgb(7, 0, 138) , rgb(1, 228, 244));
+    color: rgb(13, 0, 84);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) , rgb(200, 200, 200, 0.7));
     padding: 1rem;
     border-radius: 2rem;
     display:flex;
@@ -12,6 +12,23 @@
 
 .WeatherCard *{
     margin: 1rem 0;
+}
+
+
+.WeatherCard > button {
+    padding: 0.5rem;
+    background-color: rgb(8, 1, 38);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border:none;
+    border-radius: 10px;
+    box-shadow: -4px -4px 8px #fff, 4px 4px 8px #000;
+}
+
+.WeatherCard > img {
+    background-color: rgb(13, 0, 84);
+    border-radius: 50%
 }
 
 .WeatherCard > p {
