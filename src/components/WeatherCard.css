@@ -1,0 +1,20 @@
+.WeatherCard {
+    max-width: 250px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to bottom left, rgb(7, 0, 138) , rgb(1, 228, 244));
+    padding: 1rem;
+    border-radius: 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.WeatherCard *{
+    margin: 1rem 0;
+}
+
+.WeatherCard > p {
+    font-weight: bold;
+    font-size: 2rem;
+}
